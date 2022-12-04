@@ -13,7 +13,7 @@ public class Main {
         Car myOtherCar = new TurboChargedCar("T12345");
 
         myCar.setColour("red");
-        myCar.setMake("Honda");
+        myCar.setMake("honda");
         myCar.setRegistration("S12345A");
         myCar.setRegistrationDate(new Date());
 

@@ -40,15 +40,15 @@ public class Car {
         return this.make;
     }
     public void setMake(String make) {
-        switch (make.toLowerCase()) {
-            // if (make.equals("honda") || make.equals("toyota") || make.equals("mazda"))
-            case "honda":
-            case "toyota":
-            case "mazda":
+        //switch (make.toLowerCase()) {
+             if (make.equals("honda") || make.equals("toyota") || make.equals("mazda")){
+            //case "honda":
+            //case "toyota":
+            //case "mazda":
                 this.make = make;
-                break;
+                //break;
 
-            default:
+            //default:
         }
     }
     public String getRegistration() {
